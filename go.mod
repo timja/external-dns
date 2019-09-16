@@ -4,8 +4,11 @@ go 1.13
 
 require (
 	cloud.google.com/go v0.37.4
-	github.com/Azure/azure-sdk-for-go v10.0.4-beta+incompatible
-	github.com/Azure/go-autorest v10.9.0+incompatible
+	github.com/Azure/azure-sdk-for-go v33.2.0+incompatible
+	github.com/Azure/go-autorest v13.0.1+incompatible // indirect
+	github.com/Azure/go-autorest/autorest v0.9.1
+	github.com/Azure/go-autorest/autorest/adal v0.6.0
+	github.com/Azure/go-autorest/autorest/to v0.3.0
 	github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38 // indirect
 	github.com/alecthomas/colour v0.0.0-20160524082231-60882d9e2721 // indirect
 	github.com/alecthomas/kingpin v2.2.5+incompatible
@@ -21,7 +24,6 @@ require (
 	github.com/coreos/go-systemd v0.0.0-20190321100706-95778dfbb74e // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
 	github.com/denverdino/aliyungo v0.0.0-20180815121905-69560d9530f5
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/digitalocean/godo v1.19.0
 	github.com/dnaeon/go-vcr v1.0.1 // indirect
 	github.com/dnsimple/dnsimple-go v0.14.0
