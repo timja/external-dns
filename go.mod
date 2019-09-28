@@ -4,10 +4,11 @@ go 1.13
 
 require (
 	cloud.google.com/go v0.44.3
-	github.com/Azure/azure-sdk-for-go v33.2.0+incompatible
-	github.com/Azure/go-autorest v13.0.1+incompatible // indirect
+	github.com/Azure/azure-sdk-for-go v33.4.0+incompatible
+	github.com/Azure/go-autorest v13.0.1+incompatible
 	github.com/Azure/go-autorest/autorest v0.9.1
 	github.com/Azure/go-autorest/autorest/adal v0.6.0
+	github.com/Azure/go-autorest/autorest/azure/auth v0.3.0
 	github.com/Azure/go-autorest/autorest/to v0.3.0
 	github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38 // indirect
 	github.com/alecthomas/colour v0.0.0-20160524082231-60882d9e2721 // indirect
@@ -54,7 +55,6 @@ require (
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e // indirect
 	golang.org/x/sys v0.0.0-20190916202348-b4ddaad3f8a3 // indirect
-	golang.org/x/tools v0.0.0-20190917202804-bbfbbc92655c // indirect
 	google.golang.org/api v0.9.0
 	gopkg.in/ns1/ns1-go.v2 v2.0.0-20190322154155-0dafb5275fd1
 	gopkg.in/yaml.v2 v2.2.2
@@ -63,7 +63,6 @@ require (
 	k8s.io/api v0.0.0-20190817021128-e14a4b1f5f84
 	k8s.io/apimachinery v0.0.0-20190913075813-344bcc0201c9
 	k8s.io/client-go v11.0.0+incompatible
-	k8s.io/utils v0.0.0-20190801114015-581e00157fb1 // indirect
 )
 
 replace github.com/golang/glog => github.com/kubermatic/glog-logrus v0.0.0-20180829085450-3fa5b9870d1d
