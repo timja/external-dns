@@ -32,7 +32,7 @@ require (
 	github.com/go-resty/resty v1.8.0 // indirect
 	github.com/gobs/pretty v0.0.0-20180724170744-09732c25a95b // indirect
 	github.com/gophercloud/gophercloud v0.1.0
-	github.com/heptio/contour v0.13.0
+	github.com/heptio/contour v0.15.0
 	github.com/infobloxopen/infoblox-go-client v0.0.0-20180606155407-61dc5f9b0a65
 	github.com/linki/instrumented_http v0.2.0
 	github.com/linode/linodego v0.3.0
