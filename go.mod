@@ -5,8 +5,8 @@ go 1.13
 require (
 	cloud.google.com/go v0.44.3
 	github.com/Azure/azure-sdk-for-go v33.4.0+incompatible
-	github.com/Azure/go-autorest/autorest v0.9.1
-	github.com/Azure/go-autorest/autorest/adal v0.6.0
+	github.com/Azure/go-autorest/autorest v0.9.0
+	github.com/Azure/go-autorest/autorest/adal v0.5.0
 	github.com/Azure/go-autorest/autorest/to v0.3.0
 	github.com/alecthomas/assert v0.0.0-20170929043011-405dbfeb8e38 // indirect
 	github.com/alecthomas/colour v0.0.0-20160524082231-60882d9e2721 // indirect
@@ -63,6 +63,10 @@ require (
 )
 
 replace (
+	github.com/Azure/go-autorest => github.com/Azure/go-autorest v13.0.1+incompatible
+	github.com/Azure/go-autorest/autorest => github.com/Azure/go-autorest/autorest v0.9.1
+	github.com/Azure/go-autorest/autorest/adal => github.com/Azure/go-autorest/autorest/adal v0.6.0
+	github.com/Azure/go-autorest/autorest/azure/auth => github.com/Azure/go-autorest/autorest/azure/auth v0.3.0
 	github.com/golang/glog => github.com/kubermatic/glog-logrus v0.0.0-20180829085450-3fa5b9870d1d
 	istio.io/api => istio.io/api v0.0.0-20190820204432-483f2547d882
 	istio.io/istio => istio.io/istio v0.0.0-20190911205955-c2bd59595ce6
